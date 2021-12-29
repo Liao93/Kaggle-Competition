@@ -8,7 +8,8 @@ This code can run on Colab, you may need to modify some data paths if you want t
 Some inputs for training: 
 - 'train.zip': training images downloaded from kaggle.
 - 'label.zip': bounding boxes annotation using labelme (https://github.com/wkentaro/labelme).
-- 'train_data.npz': a list of training file paths and the corresponding labels.
+- 'train_data.npz': a list of training file paths and the corresponding labels. And this list can be converted to a pandas dataframe like this:
+![dataframe](https://github.com/Liao93/Kaggle-Competition/blob/main/df.png)
 
 # Inference
 model download link (regnet_y_8gf) : 
@@ -18,3 +19,7 @@ https://drive.google.com/file/d/1dnixFDB08Ps30clERNUJ6VSHzxS3zEpf/view?usp=shari
 - 'inference_argument_regnet.py': implement the testing augmentation. The final result is the average of five predictions: 4 from random augmented data and 1 from original data.
 
 Output: a csv file with the predictions from the model.
+
+# Result
+The best score our model can achieve (lower is better) :
+![score_on_kaggle](https://github.com/Liao93/Kaggle-Competition/blob/main/score.png)
