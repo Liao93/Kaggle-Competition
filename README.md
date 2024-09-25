@@ -2,6 +2,12 @@
 ## Competition name: The Nature Conservancy Fisheries Monitoring
 Link: https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/overview
 
+# Introduction
+Team members: 楊傑祺, 廖映銜, 戴嬿玲
+![slide1](https://github.com/Liao93/Kaggle-Competition/blob/main/intro1.png)
+![slide2](https://github.com/Liao93/Kaggle-Competition/blob/main/intro2.png)
+![slide3](https://github.com/Liao93/Kaggle-Competition/blob/main/intro3.png)
+
 # Training
 'train_regnet.ipynb'
 This code can run on Colab, you may need to modify some data paths if you want to run it on your own machine.
